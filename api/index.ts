@@ -23,7 +23,7 @@ app.use((req, res, next) => {
   const allowedOrigins = [
     'http://localhost:3000',
     'http://localhost:5000',
-    'https://your-app.netlify.app' // Replace with your actual Netlify domain
+    'https://euphonious-cannoli-23a920.netlify.app/' // Replace with your actual Netlify domain
   ];
   
   const origin = req.headers.origin;
